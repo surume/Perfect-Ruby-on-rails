@@ -16,4 +16,4 @@
 !/log/.keep
 /tmp
 /vendor
-/config/secret.yml
+/config/secrets.yml
