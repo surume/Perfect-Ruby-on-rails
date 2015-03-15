@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   get '/auth/:provider/callback' => 'sessions#create'
+  get '/logout' => 'sessions#destory', as: :logout
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
